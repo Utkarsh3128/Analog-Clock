@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="h-screen flex justify-center items-center bg-gradient-to-r from-green-500 to-purple-500 to-blue-600">
+    <div class="flex justify-center items-center w-[400px] h-[400px] bg-[url('images/clock.png')] bg-cover rounded-[50%] clock">
+        <div class="absolute w-[150px] h-[150px] hour">
+            <div class="absolute w-[150px] h-[150px] flex justify-center rounded-[50%] hr" id="hr"></div>
+        </div>
+        <div class="absolute w-[200px] h-[200px] minute">
+            <div class="absolute w-[200px] h-[200px] flex justify-center rounded-[50%] min" id="min"></div>
+        </div>
+        <div class="absolute w-[250px] h-[250px] second" id="second">
+            <div class="absolute w-[250px] h-[250px] flex justify-center rounded-[50%] sec" id="sec"></div>
+        </div>
+    </div>
+    
+    <script src="js/index.js" type="text/javascript" async defer></script>
+</body>
+</html>
