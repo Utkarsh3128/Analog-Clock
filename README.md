@@ -3,7 +3,7 @@
 ## JavaScript Timing Events 
 The _window_ object allows execution of code at specified time intervals
 
-### setInterval(function, milliseconds)
+### The setInterval() method
 The **setInterval()** method repeats a given function at a given time-interval <br>
 
 __Example :__
