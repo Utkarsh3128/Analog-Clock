@@ -4,7 +4,7 @@
 The _window_ object allows execution of code at specified time intervals
 
 ### The setInterval() method
-The **setInterval()** method repeats a given function at a given time-interval <br>
+The **setInterval()** method repeats a given function at a given time-interval. <br>
 
 __Example :__
 ``` javascript
